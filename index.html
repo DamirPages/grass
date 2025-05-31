@@ -585,7 +585,7 @@
             <input type="text" class="input" placeholder="Тема сообщения" name="">
             <input type="text" class="input" placeholder="E-mail" name="" required data-disabled-button-input>
             <textarea name="" class="textarea" placeholder="Текст сообщения..." id="" required data-disabled-button-input></textarea>
-            <a href="#" class="modal__button disabled" data-submit-button>
+            <a href="#" class="modal__button disabled" data-submit-button data-modal-open="#modal-message">
                 Отправить
             </a>
             <label class="checkbox">
@@ -1798,7 +1798,20 @@
     </div>
     <div class="modal__overlay"></div>
 </div>
-
+<div class="modal modal-code" id="modal-message">
+    <div class="modal__container">
+        <div class="modal__title">
+            Заявка отправлена
+        </div>
+        <div class="modal__text">
+            в ближайшее время мы с вами свяжемся
+        </div>
+        <button class="modal__button" data-modal-close="">
+            ОК
+        </button>
+    </div>
+    <div class="modal__overlay"></div>
+</div>
 
 	
 		<footer class="footer">
