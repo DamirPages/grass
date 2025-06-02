@@ -10,3 +10,13 @@ min-width: 70px;
 body .mobile-menu.active{
     max-height: 420px;
 }
+body .modal-questions .modal__text, body .modal-politic .modal__text, body .modal-rules .modal__text{
+  text-align: justify;
+  padding-right: 10px;
+}
+.gifts__item:first-child img {
+    max-width: 217px;
+}
+.gifts__item:nth-child(2) img {
+    max-width: 444px;
+}
